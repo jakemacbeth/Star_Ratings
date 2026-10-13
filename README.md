@@ -133,6 +133,16 @@ The model simulated 10,000 year end outcomes for 2026 based on each member's sta
 - The reversion model predicted 143 reversions against 144 actual, with an AUC of 0.93 and 18% Brier skill. Reversions are rare (about 2.4% of members controlled at May 15), so they have a small effect on the final rate.
 
 <div align="center">
+  <img src="charts/calibration.png" width="50%" height="auto" />
+</div>
+
+**The closure model's predicted rates closely match actual rates across its full range.**
+- Every decile's predicted closure rate is within 3.6 percentage points of the actual rate. The largest gaps are +3.6 in the top decile and −3.2 in decile 7.
+- The model over-predicts the six lowest deciles by 0.5 to 3.1 points and under-predicts deciles 7 through 9 by 1.4 to 3.2 points. These errors partly cancel, leaving the roughly 1% overall over-forecast.
+- Most members have similar predicted rates: deciles 3 through 10, about 80% of open members, fall between 72% and 85%. The model mainly separates out a smaller group of unlikely closers in deciles 1 and 2 (about 1,550 members at 4% and 28%).
+- This is enough to forecast the total accurately, but it gives limited ability to rank members within the large middle group.
+
+<div align="center">
 
 ## Scope and Limitations
 </div>
